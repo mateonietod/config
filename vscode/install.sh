@@ -1,5 +1,3 @@
-code --install-extension SintrumIT.theme-oceanic-next-italic
-code --install-extension Tyriar.sort-lines
 code --install-extension aaron-bond.better-comments
 code --install-extension aaronthomas.vscode-snazzy-operator
 code --install-extension be5invis.vscode-custom-css
@@ -9,11 +7,13 @@ code --install-extension DotJoshJohnson.xml
 code --install-extension eg2.tslint
 code --install-extension eg2.vscode-npm-script
 code --install-extension fabiospampinato.vscode-monokai-night
+code --install-extension GitHub.vscode-pull-request-github
 code --install-extension hnw.vscode-auto-open-markdown-preview
 code --install-extension idleberg.hopscotch
 code --install-extension infinity1207.angular2-switcher
 code --install-extension joaomoreno.github-sharp-theme
 code --install-extension johnpapa.Angular2
+code --install-extension k--kato.intellij-idea-keybindings
 code --install-extension lonefy.vscode-JS-CSS-HTML-formatter
 code --install-extension ms-mssql.mssql
 code --install-extension ms-vscode.azure-account
@@ -24,10 +24,15 @@ code --install-extension philsinatra.popping-and-locking-vscode-black
 code --install-extension PKief.material-icon-theme
 code --install-extension pnp.polacode
 code --install-extension rbbit.typescript-hero
+code --install-extension reagankarnes.one-material-dark
 code --install-extension redhat.java
 code --install-extension sidneys1.gitconfig
+code --install-extension SintrumIT.theme-oceanic-next-italic
+code --install-extension sldobri.daily
 code --install-extension teabyii.ayu
+code --install-extension Tyriar.sort-lines
 code --install-extension vscjava.vscode-java-debug
+code --install-extension vscjava.vscode-java-dependency
 code --install-extension vscjava.vscode-java-pack
 code --install-extension vscjava.vscode-java-test
 code --install-extension vscjava.vscode-maven
