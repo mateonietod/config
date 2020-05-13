@@ -1,15 +1,14 @@
 code --install-extension aaron-bond.better-comments
-code --install-extension be5invis.theme-verdandi
+code --install-extension adpyke.vscode-sql-formatter
 code --install-extension be5invis.vscode-custom-css
 code --install-extension christian-kohler.npm-intellisense
 code --install-extension DotJoshJohnson.xml
 code --install-extension eg2.vscode-npm-script
-code --install-extension GitHub.vscode-pull-request-github
 code --install-extension hnw.vscode-auto-open-markdown-preview
 code --install-extension lonefy.vscode-JS-CSS-HTML-formatter
+code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-vscode.vscode-typescript-tslint-plugin
 code --install-extension msjsdiag.debugger-for-chrome
-code --install-extension philsinatra.popping-and-locking-vscode-black
 code --install-extension PKief.material-icon-theme
 code --install-extension pnp.polacode
 code --install-extension rbbit.typescript-hero

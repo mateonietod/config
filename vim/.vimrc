@@ -5,7 +5,7 @@ set nu
 set guioptions-=m  "menu bar
 set guioptions-=T  "toolbar
 set guioptions-=r  "scrollbar
-set guifont=Ubuntu\ Mono\ derivative\ Powerline:h14
+set guifont=Hack\ Nerd\ Font:h14
 set clipboard+=unnamed
 set shell=bash
 
@@ -21,7 +21,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 syntax on
-colorscheme petrel
+colorscheme wombat
 
 Plugin 'VundleVim/Vundle.vim'
 
@@ -43,10 +43,12 @@ Plugin 'isRuslan/vim-es6'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'nlknguyen/vim-maven-syntax'
 Plugin 'mikelue/vim-maven-plugin'
+Plugin 'palantir/tslint'
 
 " Airline
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
+
 " NERDTree
 autocmd vimenter * NERDTree
 
