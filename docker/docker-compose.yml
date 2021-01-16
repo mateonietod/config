@@ -1,0 +1,19 @@
+version: "3.1"
+services:
+  db:
+    image: mysql
+    container_name: db
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassw0rd
+      MYSQL_DATABASE: db_schema
+      MYSQL_USER: mnieto2
+      MYSQL_PASSWORD: mnieto2
+
+  adminer:
+    image: adminer
+    container_name: admin
+    restart: always
+    ports:
+      - 8080:8080
