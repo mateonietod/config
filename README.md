@@ -23,3 +23,7 @@ Just plugins and themes.
 To remember:
 
 `code --list-extensions | xargs -L 1 echo code --install-extension`
+
+## Docker
+
+Use `docker-compose -d up` to mount DBs.

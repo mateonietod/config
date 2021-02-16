@@ -1,15 +1,28 @@
-version: "3.1"
+version: "3.5"
 services:
   db:
     image: mysql
     container_name: db
     command: --default-authentication-plugin=mysql_native_password
     restart: always
+    ports:
+      - "3306:3306"
     environment:
       MYSQL_ROOT_PASSWORD: rootpassw0rd
-      MYSQL_DATABASE: db_schema
+      MYSQL_DATABASE: local_db
       MYSQL_USER: mnieto2
       MYSQL_PASSWORD: mnieto2
+
+  pgdb:
+    image: postgres
+    container_name: psql
+    restart: always
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: local_db
+      POSTGRES_USER: mnieto2
+      POSTGRES_PASSWORD: mnieto2
 
   adminer:
     image: adminer

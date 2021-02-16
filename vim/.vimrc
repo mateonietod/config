@@ -5,7 +5,7 @@ set nu
 set guioptions-=m  "menu bar
 set guioptions-=T  "toolbar
 set guioptions-=r  "scrollbar
-set guifont=Hack\ Nerd\ Font:h14
+set guifont=JetBrains\ Mono:h14
 set clipboard+=unnamed
 set shell=bash
 
